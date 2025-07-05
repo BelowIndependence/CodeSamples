@@ -3,3 +3,9 @@ game:GetService("Players").PlayerAdded:Connect(function(plr)
 		print(msg)
 	end)
 end)
+
+task.spawn(function()
+    while task.wait() do
+        print("LOL")
+    end
+end)
