@@ -1,9 +1,5 @@
-local module = {}
-
 game:GetService("Players").PlayerAdded:Connect(function(plr)
 	plr.Chatted:Connect(function(msg)
 		print(msg)
 	end)
 end)
-
-return module
